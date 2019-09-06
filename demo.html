@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的项目</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        ul,
+        ol{
+            list-style: none;
+        }
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+        
+        /* start */
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: antiquewhite;
+        }
+        .cont-header{
+            text-align: center;
+        }
+        .cont-header > h1{
+            font-size: 3em;
+            letter-spacing: 10px;
+            color: #ccc;
+            margin-top: 40px;
+        }
+        .cont-header > p{
+            color: #ccc;
+            margin: 30px 0;
+        }
+        .cont-tabNav{
+            text-align: center;
+        }
+
+        .nav-btn > ul > li{
+            display: inline-block;            
+        }
+        .nav-btn > ul > li > a{
+            display: inline-block;
+            padding: 2px 5px;
+            margin: 0px 4px;
+            color: #fff;
+            background-color: rgba(25, 155, 25, 0.6);
+            border-radius: 3px;
+        }
+        .nav-btn > ul > li > a.active{
+            background-color: rgba(25, 155, 25, 0.4);            
+        }        
+        .nav-btn > ul > li > a:hover{
+            background-color: rgba(25, 155, 25, 0.4);            
+        }
+
+        .cont-img{
+            text-align: center;
+            margin: 40px 0; 
+        }
+        .cont-codeNav{
+            text-align: center;
+        }
+        .cont-codeNav > ul > li > a{
+            margin: 0px 8px;
+        }     
+        .cont-footer{
+            text-align: center;
+        }   
+        .cont-footer > p{
+            margin: 20px 0;
+        }       
+        .cont-footer > p > a{
+            color: rgba(25, 155, 25, 0.6);
+        }         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="cont-header">
+            <h1>我的项目</h1>
+            <p>项目介绍...</p>
+        </header>
+        <nav class='cont-tabNav nav-btn'>
+            <ul>
+                <li><a class="active" href="#">项目1</a></li>
+                <li><a href="#">项目2</a></li>
+                <li><a href="#">项目3</a></li>
+                <li><a href="#">项目4</a></li>
+            </ul>
+        </nav>
+        <section class="cont-img">
+            <img src="http://cdn.jscode.me/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2" alt="大象">
+        </section>
+        <nav class="cont-codeNav nav-btn">
+            <ul>
+                <li><a href="#">查看源码</a></li>
+                <li><a href="#">使用说明</a></li>
+            </ul>
+        </nav>
+        <footer class="cont-footer">
+            <p>作者:<a href="#">我</a></p>
+        </footer>
+    </div>
+</body>
+</html>
