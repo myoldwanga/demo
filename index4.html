@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;padding: 0px;
+        }
+        .table{
+            border:1px solid #ccc; 
+            margin: 50px auto;
+            text-align: center;
+        }
+        .table1 > thead{
+            background-color:lawngreen;
+            color: #fff;
+            font-weight: bold;
+        }  
+        .table1 > tbody > tr:nth-child(odd){
+            background-color:#ccc;
+        }
+        .table > thead > tr >  td{
+            border: none;
+        }           
+        .table td{
+            width: 200px;
+            padding: 5px 5px;
+            text-align: left;
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #999;
+        }
+
+        .table2 { 
+            border: none;
+        }
+        .table2 > thead{
+            color: #000;
+            font-weight: bold;
+
+        }      
+        .table2 > tbody > tr:nth-child(odd) > td{
+            background-color:#ccc;
+            border-top:1px solid #999;
+            border-bottom:1px solid #999;
+        }
+        .table2 td{
+            width: 200px;
+            padding: 5px 5px;
+            text-align: left;
+            border-left: none;
+            border-right: none;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <table class="table1 table" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr>
+                <td>name1</td>
+                <td>name1</td>
+                <td>name1</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>content</td>
+                <td>content</td>
+                <td>content</td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td>content</td>
+                <td>content</td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td>content</td>
+                <td>content</td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td>content</td>
+                <td>content</td>
+            </tr>
+            <tr>
+                <td>content</td>
+                <td>content</td>
+                <td>content</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <table class="table2 table" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <td>name1</td>
+                    <td>name1</td>
+                    <td>name1</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>content</td>
+                    <td>content</td>
+                    <td>content</td>
+                </tr>
+                <tr>
+                    <td>content</td>
+                    <td>content</td>
+                    <td>content</td>
+                </tr>
+                <tr>
+                    <td>content</td>
+                    <td>content</td>
+                    <td>content</td>
+                </tr>
+                <tr>
+                    <td>content</td>
+                    <td>content</td>
+                    <td>content</td>
+                </tr>
+                <tr>
+                    <td>content</td>
+                    <td>content</td>
+                    <td>content</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
